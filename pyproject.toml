@@ -7,7 +7,7 @@ name = "terminal-a11y"
 version = "0.3.0"
 description = "A terminal accessibility enhancement layer providing screen-reader, photophobia, sensory-budget, braille, and audio-progress modes."
 authors = [
-    { name = "Terminal A11y Contributors", email = "hello@example.com" }
+    { name = "Mark Kirby", email = "mark.kirby125@googlemail.com" }
 ]
 license = "MIT"
 readme = "README.md"
@@ -45,9 +45,9 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/example/terminal-a11y"
-Repository = "https://github.com/example/terminal-a11y"
-Issues = "https://github.com/example/terminal-a11y/issues"
+Homepage = "https://github.com/markkirby125/terminal-a11y"
+Repository = "https://github.com/markkirby125/terminal-a11y"
+Issues = "https://github.com/markkirby125/terminal-a11y/issues"
 
 [project.scripts]
 terminal-a11y = "terminal_a11y.cli:main"
