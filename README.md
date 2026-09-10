@@ -90,7 +90,7 @@ with TerminalAccessibilityEngine(
 ## Development
 
 ```bash
-git clone https://github.com/example/terminal-a11y.git
+git clone https://github.com/markkirby125/terminal-a11y.git
 cd terminal-a11y
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
