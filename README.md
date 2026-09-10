@@ -131,3 +131,7 @@ Please see the issue tracker for open milestones. We use standard GitHub PR work
 ## License
 
 MIT License.
+
+## Sources
+- [Noseda R, Burstein R, et al. "Migraine photophobia originating in cone-driven retinal pathways." *Brain*. 2016. PMID 27207542](https://pubmed.ncbi.nlm.nih.gov/27207542/)
+- [Berson DM, et al. "Phototransduction by retinal ganglion cells that set the circadian clock." *Science*. 2002. PMID 11834835](https://pubmed.ncbi.nlm.nih.gov/11834835/)
