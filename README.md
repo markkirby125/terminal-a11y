@@ -48,9 +48,16 @@ Modern command-line interfaces are intensely visual. Tools use 24-bit TrueColor 
 
 ## Installation
 
+Not yet published to PyPI. Install from source:
+
 ```bash
-pip install terminal-a11y
+git clone https://github.com/markkirby125/terminal-a11y.git
+cd terminal-a11y
+python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install .
 ```
+
+This installs the `terminal-a11y` console script.
 
 ## Usage
 
