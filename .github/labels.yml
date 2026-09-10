@@ -1,0 +1,42 @@
+- name: screen-reader
+  color: "#1d76db"
+  description: Issues related to NVDA, VoiceOver, Orca, or screen reader mode
+- name: photophobia
+  color: "#FFB000"
+  description: Issues related to amber palette, halation, or light sensitivity
+- name: ansi
+  color: "#d4c5f9"
+  description: ANSI escape sequence stripping or parsing
+- name: no-color
+  color: "#ffffff"
+  description: NO_COLOR standard compliance
+- name: nvda
+  color: "#6e3f94"
+  description: Specific to Windows NVDA
+- name: orca
+  color: "#8cae3e"
+  description: Specific to Linux Orca
+- name: voiceover
+  color: "#000000"
+  description: Specific to macOS VoiceOver
+- name: amber-palette
+  color: "#FFCC00"
+  description: P3/P134 phosphor emulation palette issues
+- name: audio
+  color: "#e99695"
+  description: Audio progress tone generation
+- name: braille
+  color: "#0e8a16"
+  description: Braille display formatting
+- name: cross-platform
+  color: "#5319e7"
+  description: OS-specific capability resolution
+- name: a11y
+  color: "#006b75"
+  description: General accessibility improvements
+- name: bug
+  color: "#d73a4a"
+  description: Something isn't working
+- name: enhancement
+  color: "#a2eeef"
+  description: New feature or request

@@ -1,0 +1,12 @@
+- title: v0.1
+  description: ANSI strip engine and cross-platform screen reader detection
+  state: open
+- title: v0.2
+  description: Core --screen-reader and --photophobia flag implementation
+  state: open
+- title: v0.3
+  description: Creative enhancements (sensory budget, audio, braille)
+  state: open
+- title: v1.0
+  description: Stable PyPI release
+  state: open
