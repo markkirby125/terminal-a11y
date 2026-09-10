@@ -25,7 +25,7 @@ Modern command-line interfaces are intensely visual. Tools use 24-bit TrueColor 
 ### `--photophobia` (`--soft`)
 
 - **Amber Phosphor Emulation:** Maps neon ANSI colors to a photophysiologically calibrated amber palette (~590nm peak) and a soft charcoal background (`#120E04`).
-- **Eliminates Halation:** Maintains crisp perceptual contrast without the bleeding fringe effect of `#FFFFFF`.
+- **Reduces Halation:** Maintains crisp perceptual contrast without the bleeding fringe effect of `#FFFFFF`.
 - **Migraine Safe:** Suppresses ipRGC activation by eliminating blue-cyan spikes.
 
 ### `--sensory-budget N`
