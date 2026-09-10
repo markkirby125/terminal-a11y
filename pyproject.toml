@@ -7,7 +7,7 @@ name = "terminal-a11y"
 version = "0.3.0"
 description = "A terminal accessibility enhancement layer providing screen-reader, photophobia, sensory-budget, braille, and audio-progress modes."
 authors = [
-    { name = "Mark Kirby", email = "mark.kirby125@googlemail.com" }
+    { name = "Paul Kirby" }
 ]
 license = "MIT"
 readme = "README.md"

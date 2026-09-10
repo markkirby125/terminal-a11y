@@ -135,6 +135,17 @@ python -m build
 
 Please see the issue tracker for open milestones. We use standard GitHub PR workflows.
 
+## Part of the Vision Apps toolkit
+
+terminal-a11y is one of four accessibility tools in the [Vision Apps](https://github.com/markkirby125/vision-apps) toolkit — small, dependency-light projects that reduce visual strain for low-vision, photophobic and astigmatic readers.
+
+| Project | What it does |
+| --- | --- |
+| [ChromaCalm](https://github.com/markkirby125/chromacalm) | Zero-install spectral notch filtering for photophobia, migraine and screen halation. |
+| [SoftContrast](https://github.com/markkirby125/softcontrast) | Anti-halation reading palettes built on APCA and OKLCH. |
+| **terminal-a11y** *(this repo)* | Screen-reader, photophobia, braille and sensory-budget modes for the command line. |
+| [FocusBeacon](https://github.com/markkirby125/focusbeacon) | High-contrast dual-contour focus ring and a cursor radar for tunnel vision. |
+
 ## License
 
 MIT License.
