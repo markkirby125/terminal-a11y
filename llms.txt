@@ -1,0 +1,7 @@
+# terminal-a11y
+
+> Terminal accessibility enhancement layer (screen-reader, photophobia, sensory-budget, braille, audio-progress). By Paul Kirby.
+
+- Repo: https://github.com/markkirby125/terminal-a11y
+- Install: git clone https://github.com/markkirby125/terminal-a11y.git && pip install .
+- Part of Vision Apps: https://github.com/markkirby125/vision-apps

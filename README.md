@@ -1,6 +1,12 @@
 # Terminal Accessibility Layer (`terminal-a11y`)
 
-A sensory enhancement layer providing `--screen-reader`, `--photophobia`, `--sensory-budget`, `--braille`, and `--audio-progress` modes for command-line utilities.
+**For blind, low-vision, and photosensitive command-line users — tame noisy terminal output.**
+
+A sensory enhancement layer providing `--screen-reader`, `--photophobia`, `--sensory-budget`, `--braille`, and `--audio-progress` modes for command-line utilities. By [Paul Kirby](https://github.com/markkirby125).
+
+*Updated: 2026-09-10*
+
+**Wrap any noisy command:** `terminal-a11y --screen-reader <command>`
 
 ## The Problem
 
@@ -118,7 +124,7 @@ pip install build
 python -m build
 ```
 
-## API
+## API: Python functions
 
 - `terminal_a11y.TerminalAccessibilityEngine` — context manager that installs filters on `sys.stdout`/`sys.stderr`.
 - `terminal_a11y.strip_ansi(text)` — remove ANSI escape sequences.
@@ -131,13 +137,15 @@ python -m build
 - **WCAG2ICT:** Fulfills criteria 1.1.1 (Non-text Content), 1.3.2 (Meaningful Sequence), 1.4.1 (Use of Color), 1.4.3 (Contrast), 2.2.2 (Pause, Stop, Hide), and 4.1.3 (Status Messages).
 - **NO_COLOR:** Strictly adheres to [no-color.org](https://no-color.org/) conventions.
 
+> terminal-a11y is a readability and screen-reader aid, not a full screen-reader replacement and not a medical device.
+
 ## Contributing
 
 Please see the issue tracker for open milestones. We use standard GitHub PR workflows.
 
 ## Part of the Vision Apps toolkit
 
-terminal-a11y is one of four accessibility tools in the [Vision Apps](https://github.com/markkirby125/vision-apps) toolkit — small, dependency-light projects that reduce visual strain for low-vision, photophobic and astigmatic readers.
+terminal-a11y is the command-line member of the [Vision Apps](https://github.com/markkirby125/vision-apps) accessibility toolkit.
 
 | Project | What it does |
 | --- | --- |
