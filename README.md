@@ -30,7 +30,7 @@ Modern command-line interfaces are intensely visual. Tools use 24-bit TrueColor 
 
 ### `--photophobia` (`--soft`)
 
-- **Amber Phosphor Emulation:** Maps neon ANSI colors to a photophysiologically calibrated amber palette (~590nm peak) and a soft charcoal background (`#120E04`).
+- **Amber Phosphor Emulation:** Maps neon ANSI colors to a hand-tuned amber palette (~590nm peak) modeled on common photophobia-friendly phosphor tints and a soft charcoal background (`#120E04`).
 - **Reduces Halation:** Maintains crisp perceptual contrast without the bleeding fringe effect of `#FFFFFF`.
 - **Migraine Safe:** Suppresses ipRGC activation by eliminating blue-cyan spikes.
 
@@ -134,7 +134,7 @@ python -m build
 
 ## Standards Compliance
 
-- **WCAG2ICT:** Fulfills criteria 1.1.1 (Non-text Content), 1.3.2 (Meaningful Sequence), 1.4.1 (Use of Color), 1.4.3 (Contrast), 2.2.2 (Pause, Stop, Hide), and 4.1.3 (Status Messages).
+- **WCAG2ICT:** Designed to help meet criteria 1.1.1 (Non-text Content), 1.3.2 (Meaningful Sequence), 1.4.1 (Use of Color), 1.4.3 (Contrast), 2.2.2 (Pause, Stop, Hide), and 4.1.3 (Status Messages).
 - **NO_COLOR:** Strictly adheres to [no-color.org](https://no-color.org/) conventions.
 
 > terminal-a11y is a readability and screen-reader aid, not a full screen-reader replacement and not a medical device.
